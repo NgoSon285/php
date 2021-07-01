@@ -45,34 +45,36 @@
 				</div>
 			</div>
 		</div>
-		<!-- end middle header -->
-		<!-- bottom header -->
-		<div class="container bottom-header" style="background-color: #16a5e9">
-			<div class="container">
-				<div class="clearfix">
-					<ul class="main-nav hidden-xs hidden-sm list-unstyled">
-						<li class="active"><a href="index.php">Trang chủ</a></li>
-						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Danh mục </a>
-							<ul class="dropdown-menu">
-								<?php
-								//lay tat ca ban ghi trong tbl_category_product
-								$category = model::list_all("select * from tbl_category_product order by pk_category_product_id desc");
-								foreach ($category as $rows) :
-								?>
-									<li><a href="index.php?controller=product_category&id=<?php echo $rows->pk_category_product_id; ?>"><?php echo $rows->c_name; ?></a></li>
-								<?php endforeach; ?>
-							</ul>
-						</li>
-						<li><a href="index.php?controller=lienhe">Liên hệ</a></li>
-					</ul>
-					<a href="javascript:void(0);" class="toggle-main-menu hidden-md hidden-lg"> <i class="fa fa-bars"></i> </a>
-					<ul class="list-unstyled mobile-main-menu hidden-md hidden-lg" style="display:none">
-						<li class="active"><a href="index.php">Trang chủ</a></li>
-						<li><a href="index.php?controller=lienhe">Liên hệ</a></li>
-					</ul>
-				</div>
+	</div>
+	<!-- end middle header -->
+	<!-- bottom header -->
+	<div class="container bottom-header" style="background-color: #16a5e9">
+		<div class="container">
+			<div class="clearfix">
+				<ul class="main-nav hidden-xs hidden-sm list-unstyled">
+						
+					<li class="active"><a href="index.php">Trang chủ</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Danh mục </a>
+						<ul class="dropdown-menu">
+							<?php
+							//lay tat ca ban ghi trong tbl_category_product
+							$category = model::list_all("select * from tbl_category_product order by pk_category_product_id desc");
+							foreach ($category as $rows) :
+							?>
+								<li><a href="index.php?controller=product_category&id=<?php echo $rows->pk_category_product_id; ?>"><?php echo $rows->c_name; ?></a></li>
+							<?php endforeach; ?>
+						</ul>
+					</li>
+					<li><a href="index.php?controller=lienhe">Liên hệ</a></li>
+				</ul>
+				<a href="javascript:void(0);" class="toggle-main-menu hidden-md hidden-lg"> <i class="fa fa-bars"></i> </a>
+				<ul class="list-unstyled mobile-main-menu hidden-md hidden-lg" style="display:none">
+					<li class="active"><a href="index.php">Trang chủ</a></li>
+					<li><a href="index.php?controller=lienhe">Liên hệ</a></li>
+				</ul>
 			</div>
 		</div>
-		<!-- end bottom header -->
+	</div>
+	<!-- end bottom header -->
 </header>
 <!-- end header -->
