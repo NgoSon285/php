@@ -155,6 +155,8 @@
   <script src="public/admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- ChartJS -->
   <script src="public/admin/plugins/chart.js/Chart.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.0/chart.min.js" integrity="sha512-JxJpoAvmomz0MbIgw9mx+zZJLEvC6hIgQ6NcpFhVmbK1Uh5WynnRTTSGv3BTZMNBpPbocmdSJfldgV5lVnPtIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
   <!-- Sparkline -->
   <script src="public/admin/plugins/sparklines/sparkline.js"></script>
   <!-- JQVMap -->
@@ -171,7 +173,6 @@
   <script src="public/admin/plugins/summernote/summernote-bs4.min.js"></script>
   <!-- overlayScrollbars -->
   <script src="public/admin/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-
   <!-- DataTables  & Plugins -->
   <script src="public/admin/plugins/datatables/jquery.dataTables.min.js"></script>
   <script src="public/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>

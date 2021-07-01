@@ -71,6 +71,7 @@
                 </div>
                 <!-- /.row -->
                 <!-- Main row -->
+                <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
                 <!-- /.row (main row) -->
             </div><!-- /.container-fluid -->
         </section>

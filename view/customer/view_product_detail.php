@@ -1,4 +1,5 @@
 <?php if (isset($record->c_name)) : ?>
+
   <div class="product-detail" itemscope itemtype="http://schema.org/Product">
     <meta itemprop="url" content="//dktstore-theme.bizwebvietnam.net/microsoft-lumia-950-xl-mau-den">
     <meta itemprop="image" content="public/customer/images/msc.jpg?v=1469340617533">
@@ -18,6 +19,8 @@
             </span></p>
           <p itemprop="price" class="price-box product-price-box"> <span class="special-price"> <span class="price product-price"><?php echo number_format($record->c_price); ?> ₫ </span> </span> </p>
           <p class="desc rte"><?php echo $record->c_description; ?></p>
+          <p class="desc rte">Ngày khởi hành: <?php echo $record->ngay_khoi_hanh; ?></p>
+          <p class="desc rte">Ngày về: <?php echo $record->ngay_ve; ?></p>
           <form action="/cart/add" method="post" enctype="multipart/form-data" class="product-form">
             <div class="action-btn">
               <a href="index.php?controller=cart&act=add&id=<?php echo $record->pk_product_id; ?>" class="button product-add-to-cart">Đặt tour</a>
