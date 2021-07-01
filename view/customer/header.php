@@ -25,24 +25,26 @@
 	<div class="mid-header">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-3 logo "> <a href="index.php"> <img src="https://demaitinh.vn/wp-content/uploads/2020/01/Vi%E1%BB%87t-Travel.png" style="width: 200px" alt="" title="" class="img-responsive"> </a> </div>
-				<div class="col-xs-12 col-sm-12 col-md-6 header-search">
-					<script type="text/javascript">
-						function search() {
-							key = document.getElementById("key").value;
-							location.href = "index.php?controller=search&key=" + key;
-							return false;
-						}
-					</script>
-					<form method="post" action="">
-						<input type="text" value="" placeholder="Nhập tour bạn cần tìm..." id="key" class="input-control">
-						<button type="submit"> <i class="fa fa-search" onclick="return search();"></i> </button>
-					</form>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-3 mini-cart">
-					<div class="wrapper-mini-cart">
-						<span class="icon" style="background-color: #16a5e9"><i class="fa fa-shopping-cart"></i></span>
-						<a href="index.php?controller=cart"> <span class="mini-cart-count"> </span> Tour bạn đã thêm <i class="fa fa-caret-down"></i></a>
+				<div class="col-xs-12 col-sm-12 col-md-2 logo "> <a href="index.php"> <img src="https://demaitinh.vn/wp-content/uploads/2020/01/Vi%E1%BB%87t-Travel.png" style="width: 200px" alt="" title="" class="img-responsive"> </a> </div>
+				<div class="col-xs-12 col-sm-12 col-md-10 ">
+					<div class="row justify-content-end align-items-center ">
+						<div class=" header-search col-md-5">
+							<script type="text/javascript">
+								function search() {
+									key = document.getElementById("key").value;
+									location.href = "index.php?controller=search&key=" + key;
+									return false;
+								}
+							</script>
+							<form method="post" action="">
+								<input type="text" value="" placeholder="Nhập tour bạn cần tìm..." id="key" class="input-control">
+								<button type="submit"> <i class="fa fa-search" onclick="return search();"></i> </button>
+							</form>
+						</div>
+						<div class="wrapper-mini-cart mini-cart ">
+							<span class="icon" style="background-color: #16a5e9"><i class="fa fa-shopping-cart"></i></span>
+							<a href="index.php?controller=cart"> <span class="mini-cart-count"> </span> Tour bạn đã thêm <i class="fa fa-caret-down"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -54,7 +56,6 @@
 		<div class="container">
 			<div class="clearfix">
 				<ul class="main-nav hidden-xs hidden-sm list-unstyled">
-
 					<li class="active"><a href="index.php">Trang chủ</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Danh mục </a>
 						<ul class="dropdown-menu">

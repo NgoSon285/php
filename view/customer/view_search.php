@@ -5,7 +5,7 @@
 		</div>
 	</div>
 	<div class="tabs-content row">
-		<div id="content-tabb1" class="content-tab content-tab-proindex">
+		<div id="content-tab1" class="content-tab content-tab-proindex">
 			<div class="clearfix">
 
 				<?php foreach ($data as $rows) : ?>
