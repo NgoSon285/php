@@ -36,7 +36,7 @@
 								<li><a href="index.php">Trang chủ</a></li>
 								<li><a href="#">Giới thiệu</a></li>
 								<li><a href="#">Tin tức</a></li>
-								<li><a href="#">Liên hệ</a></li>
+								<li><a href="index.php?controller=lienhe">Liên hệ</a></li>
 							</ul>
 						</div>
 						<div class="col-xs-12 col-sm-3">

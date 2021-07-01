@@ -52,7 +52,7 @@ class controller_category_product
 		//sql
 		$data = model::list_all("select * from tbl_category_product where parent_id=0 order by pk_category_product_id desc limit $from,$record_per_page");
 		//load view
-		include "view/admin/list_category_product.php";
+		include "view/admin/view_list_category_product.php";
 		//---
 	}
 	//edit category_product
@@ -63,7 +63,7 @@ class controller_category_product
 		//lay mot ban ghi tuong ung voi id truyen vao
 		$record = model::get_a_record("select * from tbl_category_product where pk_category_product_id=$id");
 		//load view
-		include "view/admin/add_edit_category_product.php";
+		include "view/admin/view_add_edit_category_product.php";
 	}
 	//add category_product
 	public function add_category_product()
@@ -71,7 +71,7 @@ class controller_category_product
 		//tao bien form_action de dieu phoi thuoc tinh action cua the form
 		$form_action = "admin.php?controller=category_product&action=do_add";
 		//load view
-		include "view/admin/add_edit_category_product.php";
+		include "view/admin/view_add_edit_category_product.php";
 	}
 	//do_edit
 	public function do_edit($id)

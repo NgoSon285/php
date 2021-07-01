@@ -38,10 +38,10 @@
 					<div class="col-xs-12 col-sm-3">
 						<h3>Về chúng tôi</h3>
 						<ul class="list-unstyled">
-							<li><a href="index.html">Trang chủ</a></li>
-							<li><a href="gioi-thieu">Giới thiệu</a></li>
-							<li><a href="tin-tuc">Tin tức</a></li>
-							<li><a href="gioi-thieu">Liên hệ</a></li>
+							<li><a href="index.php">Trang chủ</a></li>
+							<li><a href="">Giới thiệu</a></li>
+							<li><a href="">Tin tức</a></li>
+							<li><a href="index.php?controller=lienhe">Liên hệ</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-3">

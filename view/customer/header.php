@@ -2,10 +2,12 @@
 <header id="header">
 	<!-- top header -->
 	<div class="top-header" style="background-color: #16a5e9">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-6"></div>
-				<div class="col-xs-12 col-sm-6 col-md-6 customer">
+		<div class="container-fluid">
+			<div class="row m-2">
+				<div class="col-xs-12 col-sm-6 col-md-4" style="margin-left: 4rem; font-size:14px">
+					<span>Hotline:</span><span style="color: #ff002d;font-weight:600">19001893</span>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-7 customer">
 					<?php
 					//kiem tra, neu user da dang nhap thi hien thi thong tin user
 					if (isset($_SESSION["customer_email"])) {
@@ -52,7 +54,7 @@
 		<div class="container">
 			<div class="clearfix">
 				<ul class="main-nav hidden-xs hidden-sm list-unstyled">
-						
+
 					<li class="active"><a href="index.php">Trang chủ</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Danh mục </a>
 						<ul class="dropdown-menu">

@@ -52,7 +52,7 @@ class controller_user
 		//sql
 		$data = model::list_all("select * from tbl_user order by pk_user_id desc limit $from,$record_per_page");
 		//load view
-		include "view/admin/list_user.php";
+		include "view/admin/view_list_user.php";
 		//---
 	}
 	//edit user
@@ -63,7 +63,7 @@ class controller_user
 		//lay mot ban ghi tuong ung voi id truyen vao
 		$record = model::get_a_record("select * from tbl_user where pk_user_id=$id");
 		//load view
-		include "view/admin/add_edit_user.php";
+		include "view/admin/view_add_edit_user.php";
 	}
 	//add user
 	public function add_user()
@@ -71,7 +71,7 @@ class controller_user
 		//tao bien form_action de dieu phoi thuoc tinh action cua the form
 		$form_action = "admin.php?controller=user&action=do_add";
 		//load view
-		include "view/admin/add_edit_user.php";
+		include "view/admin/view_add_edit_user.php";
 	}
 	//do_edit
 	public function do_edit($id)

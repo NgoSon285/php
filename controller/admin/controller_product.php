@@ -52,7 +52,7 @@ class controller_product
 		//sql
 		$data = model::list_all("select * from tbl_product order by pk_product_id desc limit $from,$record_per_page");
 		//load view
-		include "view/admin/list_product.php";
+		include "view/admin/view_list_product.php";
 		//---
 	}
 	//edit product
@@ -63,7 +63,7 @@ class controller_product
 		//lay mot ban ghi tuong ung voi id truyen vao
 		$record = model::get_a_record("select * from tbl_product where pk_product_id=$id");
 		//load view
-		include "view/admin/add_edit_product.php";
+		include "view/admin/view_add_edit_product.php";
 	}
 	//add product
 	public function add_product()
@@ -71,7 +71,7 @@ class controller_product
 		//tao bien form_action de dieu phoi thuoc tinh action cua the form
 		$form_action = "admin.php?controller=product&action=do_add";
 		//load view
-		include "view/admin/add_edit_product.php";
+		include "view/admin/view_add_edit_product.php";
 	}
 	//do_edit
 	public function do_edit($id)

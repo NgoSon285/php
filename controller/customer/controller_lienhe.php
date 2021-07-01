@@ -3,7 +3,7 @@ class controller_lienhe
 {
     function __construct()
     {
-        include "view/customer/contact.php";
+        include "view/customer/view_contact.php";
     }
 }
 new controller_lienhe();
