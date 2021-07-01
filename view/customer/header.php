@@ -25,7 +25,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-3 logo "> <a href="index.php"> <img src="https://demaitinh.vn/wp-content/uploads/2020/01/Vi%E1%BB%87t-Travel.png" style="width: 200px" alt="" title="" class="img-responsive"> </a> </div>
 				<div class="col-xs-12 col-sm-12 col-md-6 header-search">
-				<script type="text/javascript">
+					<script type="text/javascript">
 						function search() {
 							key = document.getElementById("key").value;
 							location.href = "index.php?controller=search&key=" + key;
@@ -38,8 +38,8 @@
 					</form>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-3 mini-cart">
-					<div class="wrapper-mini-cart"> 
-						<span class="icon" style="background-color: #16a5e9"><i class="fa fa-shopping-cart"></i></span> 
+					<div class="wrapper-mini-cart">
+						<span class="icon" style="background-color: #16a5e9"><i class="fa fa-shopping-cart"></i></span>
 						<a href="index.php?controller=cart"> <span class="mini-cart-count"> </span> Tour bạn đã thêm <i class="fa fa-caret-down"></i></a>
 					</div>
 				</div>
@@ -47,7 +47,7 @@
 		</div>
 		<!-- end middle header -->
 		<!-- bottom header -->
-		<div class="bottom-header" style="background-color: #16a5e9">
+		<div class="container bottom-header" style="background-color: #16a5e9">
 			<div class="container">
 				<div class="clearfix">
 					<ul class="main-nav hidden-xs hidden-sm list-unstyled">
