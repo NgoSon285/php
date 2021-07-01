@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="public/admin/dist/css/adminlte.min.css">
   <!-- load ckeditor -> ckeditor.com  -->
   <script type="text/javascript" src="public/admin/ckeditor/ckeditor.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.0/chart.min.js" integrity="sha512-JxJpoAvmomz0MbIgw9mx+zZJLEvC6hIgQ6NcpFhVmbK1Uh5WynnRTTSGv3BTZMNBpPbocmdSJfldgV5lVnPtIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>

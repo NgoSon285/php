@@ -31,7 +31,7 @@
 				<ul class="pagination pull-right" style="margin-top: 0px !important; padding-right: 15px;">
 					<li><a href="#">Trang</a></li>
 					<?php for ($i = 1; $i <= $num_page; $i++) : ?>
-						<li><a href="index.php?controller=product_category&id=<?php echo $id; ?>&p=<<?php echo $i; ?>"><?php echo $i; ?></a></li>
+						<li><a href="index.php?controller=product_category&id=<?php echo $id; ?>&p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
 					<?php endfor; ?>
 				</ul>
 				<!-- end paging -->

@@ -5,7 +5,7 @@
 			$id = isset($_GET["id"])&&is_numeric($_GET["id"]) ? $_GET["id"]:0;
 			//phan trang
 			//quy dinh so ban ghi tren mot trang
-			$record_per_page = 50;
+			$record_per_page = 1;
 			//tinh tong so ban ghi
 			$total_record = model::num_rows("select pk_product_id from tbl_product where fk_category_product_id=$id");
 			//tinh so trang
@@ -22,4 +22,3 @@
 		}
 	}
 	new controller_product_category();
-?>
